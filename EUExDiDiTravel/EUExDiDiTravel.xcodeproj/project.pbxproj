@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42689A231CE1AF71002E69DA /* EUExDiDiTravel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42689A221CE1AF71002E69DA /* EUExDiDiTravel.h */; };
+		42689A251CE1AF71002E69DA /* EUExDiDiTravel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42689A241CE1AF71002E69DA /* EUExDiDiTravel.m */; };
+		42689A3F1CE1B734002E69DA /* DidiTravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42689A331CE1B734002E69DA /* DidiTravelViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42689A1D1CE1AF71002E69DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				42689A231CE1AF71002E69DA /* EUExDiDiTravel.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42689A1F1CE1AF71002E69DA /* libuexDiDiTravel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexDiDiTravel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		42689A221CE1AF71002E69DA /* EUExDiDiTravel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExDiDiTravel.h; sourceTree = "<group>"; };
+		42689A241CE1AF71002E69DA /* EUExDiDiTravel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExDiDiTravel.m; sourceTree = "<group>"; };
+		42689A321CE1B734002E69DA /* DidiTravelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DidiTravelViewController.h; sourceTree = "<group>"; };
+		42689A331CE1B734002E69DA /* DidiTravelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DidiTravelViewController.m; sourceTree = "<group>"; };
+		42689A351CE1B734002E69DA /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		42689A361CE1B734002E69DA /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		42689A371CE1B734002E69DA /* MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Digest.h; sourceTree = "<group>"; };
+		42689A381CE1B734002E69DA /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		42689A391CE1B734002E69DA /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		42689A3A1CE1B734002E69DA /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		42689A3B1CE1B734002E69DA /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		42689A3C1CE1B734002E69DA /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		42689A3D1CE1B734002E69DA /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		42689A3E1CE1B734002E69DA /* WidgetOneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetOneDelegate.h; sourceTree = "<group>"; };
+		42689A401CE1B74E002E69DA /* EUExBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		42689A411CE1B74E002E69DA /* EUExBaseDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		42689A421CE1B74E002E69DA /* EUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42689A1C1CE1AF71002E69DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42689A161CE1AF71002E69DA = {
+			isa = PBXGroup;
+			children = (
+				42689A211CE1AF71002E69DA /* EUExDiDiTravel */,
+				42689A201CE1AF71002E69DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42689A201CE1AF71002E69DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42689A1F1CE1AF71002E69DA /* libuexDiDiTravel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42689A211CE1AF71002E69DA /* EUExDiDiTravel */ = {
+			isa = PBXGroup;
+			children = (
+				42689A221CE1AF71002E69DA /* EUExDiDiTravel.h */,
+				42689A241CE1AF71002E69DA /* EUExDiDiTravel.m */,
+				42689A311CE1B734002E69DA /* source */,
+			);
+			path = EUExDiDiTravel;
+			sourceTree = "<group>";
+		};
+		42689A311CE1B734002E69DA /* source */ = {
+			isa = PBXGroup;
+			children = (
+				42689A401CE1B74E002E69DA /* EUExBase.h */,
+				42689A411CE1B74E002E69DA /* EUExBaseDefine.h */,
+				42689A421CE1B74E002E69DA /* EUtility.h */,
+				42689A321CE1B734002E69DA /* DidiTravelViewController.h */,
+				42689A331CE1B734002E69DA /* DidiTravelViewController.m */,
+				42689A341CE1B734002E69DA /* JSON */,
+				42689A3E1CE1B734002E69DA /* WidgetOneDelegate.h */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		42689A341CE1B734002E69DA /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				42689A351CE1B734002E69DA /* JSON.h */,
+				42689A361CE1B734002E69DA /* JSONParser.h */,
+				42689A371CE1B734002E69DA /* MD5Digest.h */,
+				42689A381CE1B734002E69DA /* NSObject+SBJSON.h */,
+				42689A391CE1B734002E69DA /* NSString+SBJSON.h */,
+				42689A3A1CE1B734002E69DA /* SBJSON.h */,
+				42689A3B1CE1B734002E69DA /* SBJsonBase.h */,
+				42689A3C1CE1B734002E69DA /* SBJsonParser.h */,
+				42689A3D1CE1B734002E69DA /* SBJsonWriter.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42689A1E1CE1AF71002E69DA /* EUExDiDiTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42689A281CE1AF71002E69DA /* Build configuration list for PBXNativeTarget "EUExDiDiTravel" */;
+			buildPhases = (
+				42689A1B1CE1AF71002E69DA /* Sources */,
+				42689A1C1CE1AF71002E69DA /* Frameworks */,
+				42689A1D1CE1AF71002E69DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EUExDiDiTravel;
+			productName = EUExDiDiTravel;
+			productReference = 42689A1F1CE1AF71002E69DA /* libuexDiDiTravel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42689A171CE1AF71002E69DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zywx;
+				TargetAttributes = {
+					42689A1E1CE1AF71002E69DA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9BPJ4794KZ;
+					};
+				};
+			};
+			buildConfigurationList = 42689A1A1CE1AF71002E69DA /* Build configuration list for PBXProject "EUExDiDiTravel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42689A161CE1AF71002E69DA;
+			productRefGroup = 42689A201CE1AF71002E69DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42689A1E1CE1AF71002E69DA /* EUExDiDiTravel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42689A1B1CE1AF71002E69DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42689A3F1CE1B734002E69DA /* DidiTravelViewController.m in Sources */,
+				42689A251CE1AF71002E69DA /* EUExDiDiTravel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		42689A261CE1AF71002E69DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexDiDiTravel";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = uexDiDiTravel;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42689A271CE1AF71002E69DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexDiDiTravel";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = uexDiDiTravel;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42689A291CE1AF71002E69DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExDiDiTravel",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexDiDiTravel;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		42689A2A1CE1AF71002E69DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExDiDiTravel",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexDiDiTravel;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42689A1A1CE1AF71002E69DA /* Build configuration list for PBXProject "EUExDiDiTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42689A261CE1AF71002E69DA /* Debug */,
+				42689A271CE1AF71002E69DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42689A281CE1AF71002E69DA /* Build configuration list for PBXNativeTarget "EUExDiDiTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42689A291CE1AF71002E69DA /* Debug */,
+				42689A2A1CE1AF71002E69DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42689A171CE1AF71002E69DA /* Project object */;
+}

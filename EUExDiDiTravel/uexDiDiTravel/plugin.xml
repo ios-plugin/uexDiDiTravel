@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<uexplugins>
+    
+    <plugin name="uexDiDiTravel">
+        
+        <method name="registerApp"></method>
+        <method name="showDDPage"></method>
+        <method name="isLogin"></method>
+        <method name="getTicket"></method>
+        <method name="callDDApi"></method>
+        <method name="openPage"></method>
+        <method name="callPhone"></method>
+    </plugin>
+    
+</uexplugins>
