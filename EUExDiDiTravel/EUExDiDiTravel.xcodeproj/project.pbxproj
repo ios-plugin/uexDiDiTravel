@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42689A231CE1AF71002E69DA /* EUExDiDiTravel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42689A221CE1AF71002E69DA /* EUExDiDiTravel.h */; };
 		42689A251CE1AF71002E69DA /* EUExDiDiTravel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42689A241CE1AF71002E69DA /* EUExDiDiTravel.m */; };
 		42689A3F1CE1B734002E69DA /* DidiTravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42689A331CE1B734002E69DA /* DidiTravelViewController.m */; };
+		42CAC7EA1CE48083009A4AB5 /* DIOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CAC7E91CE48083009A4AB5 /* DIOpenSDK.framework */; };
+		42CAC7EC1CE480D1009A4AB5 /* DIOpenSDK.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42CAC7EB1CE48096009A4AB5 /* DIOpenSDK.bundle */; };
+		42CAC7ED1CE480D3009A4AB5 /* DIOpenSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42CAC7E91CE48083009A4AB5 /* DIOpenSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		42689A1D1CE1AF71002E69DA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
+			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				42689A231CE1AF71002E69DA /* EUExDiDiTravel.h in CopyFiles */,
+				42CAC7ED1CE480D3009A4AB5 /* DIOpenSDK.framework in CopyFiles */,
+				42CAC7EC1CE480D1009A4AB5 /* DIOpenSDK.bundle in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,8 @@
 		42689A401CE1B74E002E69DA /* EUExBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
 		42689A411CE1B74E002E69DA /* EUExBaseDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
 		42689A421CE1B74E002E69DA /* EUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		42CAC7E91CE48083009A4AB5 /* DIOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DIOpenSDK.framework; sourceTree = "<group>"; };
+		42CAC7EB1CE48096009A4AB5 /* DIOpenSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DIOpenSDK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CAC7EA1CE48083009A4AB5 /* DIOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +92,8 @@
 		42689A311CE1B734002E69DA /* source */ = {
 			isa = PBXGroup;
 			children = (
+				42CAC7EB1CE48096009A4AB5 /* DIOpenSDK.bundle */,
+				42CAC7E91CE48083009A4AB5 /* DIOpenSDK.framework */,
 				42689A401CE1B74E002E69DA /* EUExBase.h */,
 				42689A411CE1B74E002E69DA /* EUExBaseDefine.h */,
 				42689A421CE1B74E002E69DA /* EUtility.h */,
@@ -269,8 +277,9 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/EUExDiDiTravel",
+					"$(PROJECT_DIR)/EUExDiDiTravel/source",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = uexDiDiTravel;
 				SKIP_INSTALL = YES;
@@ -282,8 +291,9 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/EUExDiDiTravel",
+					"$(PROJECT_DIR)/EUExDiDiTravel/source",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = uexDiDiTravel;
 				SKIP_INSTALL = YES;
